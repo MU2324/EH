@@ -1,0 +1,6 @@
+Port scanning(ACK) :- nmap -sA <ip>
+SYN Scan :- nmap -sS <ip>
+FIN Scan :- nmap -sF <ip>
+NULL Scan :- nmap -sN <ip>
+XMAS Scan :- nmap -sX <ip>
+OS Detection :- nmap -sV <ip> -A
